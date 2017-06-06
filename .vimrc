@@ -13,8 +13,19 @@ Plugin 'VundleVim/Vundle.vim'
 " " The following are examples of different formats supported.
 " " Keep Plugin commands between vundle#begin/end.
 " " plugin on GitHub repo
-Plugin 'Valloric/YouCompleteMe' 
-Plugin 'jiangmiao/auto-pairs'
+
+
+Plugin 'Valloric/YouCompleteMe' "Offers autocomplete suggestions 
+Plugin 'jiangmiao/auto-pairs' " autocomplete brackets etc.
+Plugin 'SirVer/ultisnips' " snippets, e.g. psvm etc.
+Plugin 'honza/vim-snippets' "the actual snippets for ^^^
+
+let g:UltiSnipsExpandTrigger="<s-tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+let g:UltiSnipsEditSplit="vertical" "allows UltiSnips to split the screen?
+
 " " plugin from http://vim-scripts.org/vim/scripts.html
 " " Plugin 'L9'
 " " Git plugin not hosted on GitHub
@@ -44,5 +55,8 @@ filetype plugin indent on    " required
 " " Put your non-Plugin stuff after this lineset runtimepath+=~/.vim_runtime
 
 set number
+set tabstop=4
+set softtabstop=4
 syntax enable
 colorscheme monokai
+
