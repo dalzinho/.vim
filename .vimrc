@@ -55,8 +55,8 @@ filetype plugin indent on    " required
 " " Put your non-Plugin stuff after this lineset runtimepath+=~/.vim_runtime
 
 set number
-set tabstop=4
-set softtabstop=4
+set tabstop=2
+set softtabstop=2
 syntax enable
 colorscheme monokai
 
