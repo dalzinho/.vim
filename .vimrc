@@ -20,12 +20,13 @@ Plugin 'jiangmiao/auto-pairs' " autocomplete brackets etc.
 Plugin 'SirVer/ultisnips' " snippets, e.g. psvm etc.
 Plugin 'honza/vim-snippets' "the actual snippets for ^^^
 
-let g:UltiSnipsExpandTrigger="<s-tab>"
+let g:UltiSnipsExpandTrigger="<c-tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 let g:UltiSnipsEditSplit="vertical" "allows UltiSnips to split the screen?
 
+Plugin 'tpope/vim-commentary'
 " " plugin from http://vim-scripts.org/vim/scripts.html
 " " Plugin 'L9'
 " " Git plugin not hosted on GitHub

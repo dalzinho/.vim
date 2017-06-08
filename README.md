@@ -12,6 +12,8 @@ But, it needs quite a lot of configuration, so I'm going to try to get a configu
 	* auto closes brackets, speech marks etc.
 * ultisnips
 	* autocomplete code snippets for e.g. psvm, sop.
+* vim-commentary
+	* Allows lines to be easily commented and uncommented
 
 ### Settings
 * Line numbers shown
