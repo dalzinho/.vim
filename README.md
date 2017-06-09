@@ -20,3 +20,10 @@ But, it needs quite a lot of configuration, so I'm going to try to get a configu
 * tab spacing set to 2
 * syntax colouring enabled 
 * Monokai colour scheme used
+
+### Set-up
+* Clone this folder to ~/
+* Make a symbolic link to .vim/.vimrc in ~/
+	* `ln -s .vim/.vimrc ./.vimrc`
+* Run `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+* Open vim and run `:PluginInstall`
